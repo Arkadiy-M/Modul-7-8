@@ -461,6 +461,7 @@ article a:hover{
 .comment_copyright{
 	font-family: Georgia;
 	font-style: italic;
+	text-shadow: 1px 1px 5px rgb(255, 255, 255);
 	color: #c5c5c5; 
 	line-height: 50px;
 }
