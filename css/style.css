@@ -266,6 +266,7 @@ article a:hover{
 .blog{
 	background:#f9f9f9;
 	color: #454545;
+	height: 450px;
 }
 
 .blog h3{
@@ -286,21 +287,24 @@ article a:hover{
 .blog_left{
 	width: 360px;
 	float: left;
-	background: #ffffff;
+	background: url("../img/sprite.png") no-repeat;
+        background-position: -12px -410px;
 	margin: 97px 0px 110px 28px;
-	padding: 31px 30px 40px 36px;
-	position: relative;
+        height: 250px;
+        width: 360px;
+	padding: 31px 30px 0px 36px;
+	position: absolute;
 }
 
 .blog_left:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: -62px -174px;
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    left: -30px;
-    top: 15px;
+	background: url("../img/sprite.png") no-repeat;
+    	background-position: -62px -174px;
+    	height: 60px;
+	width: 60px;
+    	position: absolute;
+    	left: -30px;
+    	top: 15px;
 }
 /*---блок справа---*/
 .blog_right{
