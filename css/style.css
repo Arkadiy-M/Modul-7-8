@@ -196,6 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#734f81', end
 
 	border-top: 1px solid  #000000;
 	border-bottom: 1px solid  #000000;
+	width: 100%;
 }
 
 .aboutcompany article{
