@@ -6,8 +6,8 @@
          url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
          url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
          url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    	font-weight: normal;
+    	font-style: normal;
 
 }
 
@@ -19,8 +19,8 @@
          url('../fonts/opensans-light-webfont.woff2') format('woff2'),
          url('../fonts/opensans-light-webfont.woff') format('woff'),
          url('../fonts/opensans-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    	font-weight: normal;
+    	font-style: normal;
 
 }
 
@@ -34,12 +34,14 @@
 
 body{
 	font: 16px 'league_gothicregular', 'open_sans', Tahoma, Georgia, sans-serif;
+    	width: 100%;
 
 }
 
 .wrapper{
 	width: 90%;
 	margin: 0 auto;
+    
 }
 
 header{
@@ -105,7 +107,7 @@ header{
 
 .slider_text{
 	margin-top: 80px;
-	width: 500px;
+	width: 45%;
 	float: left;
 	clear:both;
 	margin-bottom: 82px;
@@ -151,7 +153,7 @@ header{
 	width: 20px;
 	height: 20px; 
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -29px -31px;
+    	background-position: -29px -31px;
 
 }
 
@@ -161,26 +163,26 @@ header{
 
 .slider:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
+    	background: url("../img/sprite.png") no-repeat;
    	background-position: 0px -65px;
-    display: block;
-    height: 45px;
-    width: 25px;
-    position: absolute;
-    left: 0%;
-    top: 50%; 
+    	display: block;
+    	height: 45px;
+    	width: 25px;
+    	position: absolute;
+    	left: 0%;
+    	top: 50%; 
 }
 
 .slider:after{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
+    	background: url("../img/sprite.png") no-repeat;
    	background-position: -26px -65px;
-    display: block;
-    height: 45px;
-    width: 25px;
-    position: absolute;
-    right: 5%;
-    top: 50%; 
+    	display: block;
+    	height: 45px;
+    	width: 25px;
+    	position: absolute;
+    	right: 5%;
+    	top: 50%; 
 }
 
 /*----блок с фиолетовым градиентом---*/
@@ -197,10 +199,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#734f81', end
 }
 
 .aboutcompany article{
-	width: 25%;
-    float: left;
-    margin: 77px 0px 65px 95px;
-    position: relative;
+	width: 24%;
+    	float: left;
+    	margin: 77px 0px 65px 85px;
+    	position: relative;
 }
 
 article:first-child{
@@ -211,6 +213,7 @@ article:first-child{
 article p{
 	font: 16px 'open_sans';
 	color: #ffffff;
+    	width: 95%;
 }
 
 .aboutcompany article span {
@@ -221,7 +224,7 @@ article p{
 }
 
 article a{
-	float:right;
+	float: right;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 18px;
@@ -235,30 +238,30 @@ article a:hover{
 
 .first:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: -157px -71px;
-    height: 40px;
-    width: 30px;
-    position: absolute;
-    left: -37px;
+    	background: url("../img/sprite.png") no-repeat;
+    	background-position: -157px -71px;
+    	height: 40px;
+    	width: 30px;
+    	position: absolute;
+    	left: -37px;
 }
 .second:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: -113px -67px;
-    height: 40px;
-    width: 30px;
-    position: absolute;
-    left: -37px;
+    	background: url("../img/sprite.png") no-repeat;
+    	background-position: -113px -67px;
+    	height: 40px;
+    	width: 30px;
+    	position: absolute;
+    	left: -37px;
 }
 .third:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: -71px -65px;
-    height: 40px;
-    width: 30px;
-    position: absolute;
-    left: -37px;
+    	background: url("../img/sprite.png") no-repeat;
+    	background-position: -71px -65px;
+    	height: 40px;
+    	width: 30px;
+    	position: absolute;
+    	left: -37px;
 }
 
 /*----блог----*/
@@ -266,7 +269,8 @@ article a:hover{
 .blog{
 	background:#f9f9f9;
 	color: #454545;
-	height: 450px;
+    	height: 480px;
+    	width: 100%;
 }
 
 .blog h3{
@@ -276,42 +280,47 @@ article a:hover{
 
 .blog p{
 	font-family: 'open_sans';
-	line-height: 22px;
+	line-height: 23px;
 	color: #454545;
 	letter-spacing: -1px;
+    	padding: 0px 5px 5px 3px;
+    	width: 100%;
 }
 .blog_left span {
 	color: #edbfff;
 }
 /*----блок слева---*/
 .blog_left{
-	width: 360px;
 	float: left;
 	background: url("../img/sprite.png") no-repeat;
-    	background-position: -12px -410px;
+    	background-position: -12px -406px;
 	height: 250px;
-    	width: 360px;
-	padding: 31px 30px 0px 36px;
+    	width: 35%;
+	padding: 30px 30px 30px 30px;
 	position: relative;
     	margin-top: 96px;
 }
 
+
 .blog_left:before{
 	content: "";
-	background: url("../img/sprite.png") no-repeat;
+    	background: url("../img/sprite.png") no-repeat;
     	background-position: -62px -174px;
     	height: 60px;
-	width: 60px;
+    	width: 60px;
     	position: absolute;
     	left: -30px;
     	top: 15px;
 }
+
+
 /*---блок справа---*/
 .blog_right{
 	float: right;
 	margin-top: 127px;
-	width: 450px;
-}
+	width: 45%;
+    	position: relative;
+    }
 
 .blog_right h4{
 	font-family: 'open_sans';
@@ -340,38 +349,39 @@ article a:hover{
 /*----картинки в блоке справа---*/
 .one:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: 0px -115px;
-    height: 50px;
-    width: 55px;
-    position: absolute;
-    left: -65px;
+    	background: url("../img/sprite.png") no-repeat;
+    	background-position: 0px -115px;
+    	height: 50px;
+    	width: 55px;
+    	position: absolute;
+    	left: -65px;
 }
 .two:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: 0px -183px;
-    height: 50px;
-    width: 55px;
-    position: absolute;
-    left: -65px;
+    	background: url("../img/sprite.png") no-repeat;
+    	background-position: 0px -183px;
+    	height: 50px;
+    	width: 55px;
+    	position: absolute;
+    	left: -65px;
 }
 .three:before{
 	content: "";
-    background: url("../img/sprite.png") no-repeat;
-    background-position: 0px -246px;
-    height: 50px;
-    width: 55px;
-    position: absolute;
-    left: -65px;
+    	background: url("../img/sprite.png") no-repeat;
+    	background-position: 0px -246px;
+    	height: 50px;
+    	width: 55px;
+    	position: absolute;
+    	left: -65px;
 }
 
 
 /*---переключатель в блоке слева---*/
 .blog_click{
 	position: absolute;
-	bottom: -32px;
-    left: 170px;
+	bottom: -5px;
+    	left: 280px;
+    	padding: 30px 10px 5px 30px;
 }
 
 .blog_click ul{
@@ -387,7 +397,7 @@ article a:hover{
 	width: 20px;
 	height: 20px; 
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -29px -31px;
+    	background-position: -29px -31px;
 }
 
 .blog_click a:hover{
@@ -397,9 +407,10 @@ article a:hover{
 .brands {
 	background: #f9f9f9;
 	padding-bottom: 30px;
-	padding-top: 25px;
+	padding-top: 30px;
 	border-top: 1px solid #e6e6e6;
 	border-bottom: 1px solid #e6e6e6;
+    	width: 100%;
 }
 
 .brands ul{
@@ -417,33 +428,33 @@ article a:hover{
 }
 .billabong{
 	background: url("../img/sprite.png") no-repeat;
-    background-position: 0px -306px;
+    	background-position: 0px -306px;
 	width: 70px;
 }
 .burton{
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -134px -306px;
-    width: 72px;
+    	background-position: -134px -306px;
+    	width: 72px;
 }
 .zir{
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -270px -306px;
-    width: 65px;
+    	background-position: -270px -306px;
+    	width: 65px;
 }
 .awsm{
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -410px -306px;
-    width: 50px;
+    	background-position: -410px -306px;
+    	width: 50px;
 }
 .rvcl{
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -528px -306px;
-    width: 103px;
+    	background-position: -528px -306px;
+    	width: 103px;
 }
 .vonzipper{
 	background: url("../img/sprite.png") no-repeat;
-    background-position: -697px -306px;
-    width: 79px;
+    	background-position: -697px -306px;
+    	width: 79px;
 }
 
 /*----класс с серым фоном и тремя колонками----*/
@@ -454,7 +465,7 @@ article a:hover{
 
 .comment article{
 	float: left;
-	width: 30%;
+	width: 29%;
 	margin-left: 5%;
 }
 
@@ -465,8 +476,8 @@ article a:hover{
 .comment_copyright{
 	font-family: Georgia;
 	font-style: italic;
-	text-shadow: 1px 1px 5px rgb(255, 255, 255);
-	color: #c5c5c5; 
+    	text-shadow: 1px 1px 5px rgb(255, 255, 255);
+	color: #c4c4c4; 
 	line-height: 50px;
 }
 
@@ -509,7 +520,7 @@ article a:hover{
 	text-decoration: none;
 	font-size: 19px;
 	color: #ffffff;
-	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 150);
 	text-transform: uppercase;
 	text-align: center;
 	margin-right: 45px;
@@ -525,6 +536,7 @@ article a:hover{
 	line-height: 114px;
 	font-family: 'open_sans';
 	font-size: 12px;
+    	margin-right: 45px;
 }
 
 .design span{
